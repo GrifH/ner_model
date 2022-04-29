@@ -18,9 +18,24 @@
   },
   "labels":{
     "ner":[
+      "Biochemical Test",
+      "Cell Line",
+      "Cell Type",
+      "DNA",
       "Disease",
       "Gene",
-      "Subtype"
+      "Gene Product",
+      "Genetic Testing",
+      "Medical Test",
+      "Organ",
+      "RNA",
+      "Receptor",
+      "Receptors",
+      "Sequencing ",
+      "Species",
+      "Subtype",
+      "Treatment",
+      "Tumor Marker"
     ]
   },
   "pipeline":[

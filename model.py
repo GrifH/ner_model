@@ -37,6 +37,10 @@ ent7 = {"entities":[(201,214,"Disease"),(254,263,"Subtype"),(286,295,"Subtype"),
 
 abstracts = [(abstract1, ent1), (abstract2,ent2), (abstract3, ent3), (abstract4, ent4), (abstract5, ent5), (abstract6, ent6), (abstract7, ent7)]
 
+from annotations import training
+from annotations import testing
+
+abstracts = training
 
 model = None
 output_dir=Path("output/")
@@ -84,6 +88,15 @@ if output_dir is not None:
     print("Saved model to", output_dir)
 pickle.dump(nlp, open( "education nlp.pkl", "wb" ))
 
-doc=nlp("•2015-2017, BE Chemical Engineering, Coimbatore Institute of Technology , India")
-for ent in doc.ents:
-    print(ent.label_+ '  ------>   ' + ent.text)
+for temp in testing:
+    print(temp[0])
+    print("-----")
+    print(temp[1])
+    print("-----")
+
+    doc=nlp(temp[0])
+    for ent in doc.ents:
+        print(ent.label_+ '  ------>   ' + ent.text)
+    print()
+    print("-----")
+    print()

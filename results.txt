@@ -1,0 +1,461 @@
+In conclusion, AR-related subtyping of breast cancer may be prognostic and serve for selecting optimal treatment combinations.
+-----
+{'entities': [(15, 17, 'Gene'), (39, 52, 'Disease')]}
+-----
+Gene Product  ------>   AR
+Disease  ------>   breast cancer
+
+-----
+
+MAC outcome was favorable upon taxane-containing treatment; this remained significant upon multivariate analysis for overall survival (HR 0.31, 95%CI 0.13-0.74, interaction p = 0.035) and as a trend for time to relapse (p = 0.15).
+-----
+{'entities': [(0, 3, 'Subtype')]}
+-----
+
+-----
+
+Patients with MAC had outcome comparable to the luminal group, while patients with HR-negative disease had increased risk for relapse and death.
+-----
+{'entities': [(14, 17, 'Subtype'), (83, 94, 'Subtype')]}
+-----
+Subtype  ------>   luminal
+Subtype  ------>   HR-negative
+
+-----
+
+High histologic grade (p < 0.001) and increased proliferation (p = 0.001) more often appeared in MAC and HR-negative than in luminal tumors.
+-----
+{'entities': [(133, 139, 'Disease'), (97, 100, 'Subtype'), (105, 116, 'Subtype')]}
+-----
+Subtype  ------>   luminal
+
+-----
+
+Subtyping was evaluated with respect to prognosis and to taxane therapy.
+-----
+{'entities': []}
+-----
+Treatment  ------>   taxane therapy
+
+-----
+
+Tumors were subtyped into luminal (ER+/Pg+-/AR+-), molecular apocrine (MAC, [ER-/PgR-/AR+]) and hormone receptor negative carcinomas (HR-negative, [ER-/PgR-/AR-]).
+-----
+{'entities': [(35, 48, 'Subtype'), (71, 90, 'Subtype'), (134, 161, 'Subtype'), (122, 132, 'Disease')]}
+-----
+Subtype  ------>   luminal
+Subtype  ------>   ER-/PgR-/AR+
+Receptor  ------>   hormone receptor negative carcinomas (
+Subtype  ------>   HR-negative
+Subtype  ------>   ER-/PgR-/AR-
+
+-----
+
+We evaluated AR protein expression in high-risk breast cancer treated in the adjuvant setting.
+-----
+{'entities': [(13, 15, 'Gene'), (48, 61, 'Disease')]}
+-----
+Gene Product  ------>   AR
+Disease  ------>   high-risk
+
+-----
+
+The Androgen Receptor (AR) is a potential prognostic marker and therapeutic target in breast cancer.
+-----
+{'entities': [(86, 99, 'Disease'), (4, 26, 'Gene')]}
+-----
+Gene Product  ------>   AR
+Disease  ------>   breast cancer
+
+-----
+
+These unique features revealed in our work, replicated in clinical material, collectively demonstrate the potential of secreted EVs to differentiate between breast cancer subtypes and show the prospect of their use as non-invasive liquid biopsies for diagnosis and management of breast cancer patients.
+-----
+{'entities': [(157, 180, 'Subtype')]}
+-----
+Disease  ------>   breast cancer
+
+-----
+
+Moreover, we detected molecular evidence for subtype-specific biological processes and molecular pathways, hyperphosphorylated receptors and kinases in connection with the disease, and compiled a set of protein signatures that closely reflect the associated clinical pathophysiology.
+-----
+{'entities': [(107, 136, 'Gene Product'), (141, 148, 'Gene Product')]}
+-----
+
+-----
+
+Here, we show that proteome profiles of EVs secreted by different breast cancer cell lines are highly indicative of their respective molecular subtypes, even more so than the proteome changes within the cancer cells.
+-----
+{'entities': [(133, 151, 'Subtype'), (203, 216, 'Cell Type')]}
+-----
+
+-----
+
+In breast cancer, comprehensive analyses of EVs could yield robust and reliable subtype-specific biomarkers that are still critically needed to improve diagnostic routines and clinical outcome.
+-----
+{'entities': []}
+-----
+Gene  ------>   EVs
+
+-----
+
+Extracellular vesicles (EVs) are a potential source of disease-associated biomarkers for diagnosis.
+-----
+{'entities': []}
+-----
+
+-----
+
+Although there is high agreement between biomarker scoring by protein immunohistochemistry and gene expression, the gene expression determinations for ESR1 and ERBB2 status was more prognostic.
+-----
+{'entities': [(151, 155, 'Gene'), (160, 165, 'Gene')]}
+-----
+Gene  ------>   ESR1
+Gene  ------>   ERBB2
+
+-----
+
+The standard immunohistochemical panel for breast cancer (ER, PR, and HER2) does not adequately identify the PAM50 gene expression subtypes.
+-----
+{'entities': [(58, 60, 'Gene Product'), (62, 64, 'Gene Product'), (70, 74, 'Gene Product'), (109, 114, 'Gene')]}
+-----
+Disease  ------>   breast cancer
+Subtype  ------>   ER
+Subtype  ------>   PR
+Subtype  ------>   HER2
+Gene  ------>   gene expression
+
+-----
+
+Single gene scoring for ESR1, PGR, and ERBB2 was more prognostic than the corresponding IHC markers as shown in a multivariate analysis.
+-----
+{'entities': [(24, 28, 'Gene'), (30, 33, 'Gene'), (39, 44, 'Gene')]}
+-----
+Gene  ------>   ESR1
+Gene  ------>   PGR
+Gene  ------>   ERBB2
+
+-----
+
+Triple negative tumors were mainly comprised of Basal-like (57%) and HER2-E (30%) subtypes.
+-----
+{'entities': [(48, 58, 'Subtype'), (69, 76, 'Subtype')]}
+-----
+Subtype  ------>   Triple negative tumors
+Subtype  ------>   HER2-E
+
+-----
+
+Seventy-seven percent (30/39) of ER-/HER2+ tumors by IHC were classified as the HER2-E subtype.
+-----
+{'entities': [(33, 49, 'Subtype'), (80, 95, 'Subtype')]}
+-----
+Disease  ------>   tumors
+Subtype  ------>   HER2-E
+
+-----
+
+Luminal A tumors more frequently expressed PR than Luminal B (94% vs 74%) and Luminal A tumors were less likely to have high proliferation (11% vs 77%).
+-----
+{'entities': [(0, 16, 'Subtype'), (43, 45, 'Gene Product'), (51, 61, 'Subtype'), (78, 87, 'Subtype')]}
+-----
+Subtype  ------>   PR than
+Subtype  ------>   Luminal B
+
+-----
+
+Estrogen receptor positivity by IHC was strongly associated with Luminal (A and B) subtypes (92%), but only 75% of ER negative tumors were classified into the HER2-E and Basal-like subtypes.
+-----
+{'entities': [(0, 17, 'Gene Product'), (65, 92, 'Subtype'), (115, 133, 'Subtype'), (159, 190, 'Subtype')]}
+-----
+Subtype  ------>   Luminal
+Subtype  ------>   ER negative tumors
+Subtype  ------>   HER2-E
+
+-----
+
+ESR1, PGR, and ERBB2 gene expression had high agreement with established binary IHC cut-points (area under the curve (AUC) >= 0.9).
+-----
+{'entities': [(0, 4, 'Gene'), (6, 9, 'Gene'), (15, 20, 'Gene')]}
+-----
+Gene  ------>   ESR1
+Gene  ------>   PGR
+Gene  ------>   ERBB2
+Gene  ------>   gene expression
+
+-----
+
+High, medium, and low expression for ESR1, PGR, ERBB2, and proliferation were selected using quartile cut-points from the continuous RT-qPCR data across the PAM50 subtype assignments.
+-----
+{'entities': [(37, 41, 'Gene'), (43, 46, 'Gene'), (48, 53, 'Gene'), (157, 162, 'Gene')]}
+-----
+Gene  ------>   ESR1
+Gene  ------>   PGR
+Gene  ------>   ERBB2
+Biochemical Test  ------>   RT-qPCR
+Subtype  ------>   PAM50
+
+-----
+
+Single gene scores by IHC/CISH were compared with RT-qPCR continuous gene expression values and intrinsic subtype assignment by the PAM50.
+-----
+{'entities': [(132, 137, 'Gene'), (96, 113, 'Subtype')]}
+-----
+Biochemical Test  ------>   IHC/
+Biochemical Test  ------>   RT-qPCR
+Subtype  ------>   PAM50
+
+-----
+
+Equivocal HER2 cases were confirmed by chromogenic in situ hybridization (CISH).
+-----
+{'entities': [(10, 14, 'Gene')]}
+-----
+
+-----
+
+All samples were scored at a single site by IHC for estrogen receptor (ER), progesterone receptor (PR), and Her2/neu (HER2) protein expression.
+-----
+{'entities': [(44, 74, 'Gene Product'), (76, 102, 'Gene Product'), (108, 123, 'Gene Product')]}
+-----
+DNA  ------>   single site
+Biochemical Test  ------>   IHC
+Receptors  ------>   estrogen
+Receptor  ------>   progesterone receptor (PR)
+Receptors  ------>   Her2
+Subtype  ------>   neu
+Gene  ------>   HER2
+
+-----
+
+We used the PAM50 RT-qPCR assay to expression profile 814 tumors from the GEICAM/9906 phase III clinical trial that enrolled women with locally advanced primary invasive breast cancer.
+-----
+{'entities': [(12, 17, 'Gene'), (153, 184, 'Disease')]}
+-----
+Subtype  ------>   PAM50 RT-qPCR
+Disease  ------>   breast cancer
+
+-----
+
+Discrepancies between these methods may lead to different treatment decisions.
+-----
+{'entities': []}
+-----
+
+-----
+
+The PAM50 gene set is often used for gene expression-based subtyping; however, surrogate subtyping using panels of immunohistochemical (IHC) markers are still widely used clinically.
+-----
+{'entities': [(4, 9, 'Gene'), (115, 148, 'Gene Product')]}
+-----
+
+-----
+
+Many methodologies have been used in research to identify the intrinsic subtypes of breast cancer commonly known as Luminal A, Luminal B, HER2-Enriched (HER2-E) and Basal-like.
+-----
+{'entities': [(116, 125, 'Subtype'), (127, 138, 'Subtype'), (138, 160, 'Subtype'), (165, 176, 'Subtype')]}
+-----
+Subtype  ------>   Luminal
+Subtype  ------>   Luminal B
+Subtype  ------>   HER2-Enriched
+Subtype  ------>   HER2-E
+
+-----
+
+It reveals connections between traditional prognostic factors, expression-based subtyping, and prognostic signatures, highlighting the important role of proliferation in breast cancer prognosis.
+-----
+{'entities': []}
+-----
+Disease  ------>   breast cancer
+
+-----
+
+It reveals connections between traditional prognostic factors, expression-based subtyping, and prognostic signatures, highlighting the important role of proliferation in breast cancer prognosis.
+-----
+{'entities': []}
+-----
+Disease  ------>   breast cancer
+
+-----
+
+It reveals connections between traditional prognostic factors, expression-based subtyping, and prognostic signatures, highlighting the important role of proliferation in breast cancer prognosis.
+-----
+{'entities': []}
+-----
+Disease  ------>   breast cancer
+
+-----
+
+This meta-analysis unifies various results of previous gene expression studies in breast cancer.
+-----
+{'entities': []}
+-----
+
+-----
+
+Clinical variables measuring the extent of tumor progression, such as tumor size and nodal status, still add independent prognostic information to proliferation genes.
+-----
+{'entities': []}
+-----
+Disease  ------>   tumor
+
+-----
+
+Although ER.sup.- .sup.status (basal-like) and ERBB2.sup.+ .sup.expression status correspond to bad outcome, they seem to act through elevated expression of proliferation genes and thus contain only indirect information about prognosis.
+-----
+{'entities': [(9, 42, 'Subtype'), (47, 64, 'Subtype')]}
+-----
+
+-----
+
+Their prognostic abilities are due mostly to the detection of proliferation activity.
+-----
+{'entities': []}
+-----
+
+-----
+
+We showed that all nine prognostic signatures exhibited a similar prognostic performance in the entire dataset.
+-----
+{'entities': []}
+-----
+
+-----
+
+Previously published expression-based nomenclature of breast cancer 'intrinsic' subtypes can be mapped to the three modules, namely, the ER.sup.-.sup./HER2.sup.- .sup.(basal-like), the HER2.sup.+ .sup.(HER2-like), and the low- and high-proliferation ER.sup.+.sup./HER2.sup.- .sup.subtypes (luminal A and B).
+-----
+{'entities': [(137, 179, 'Subtype'), (185, 211, 'Subtype'), (250, 307, 'Subtype')]}
+-----
+Subtype  ------>   intrinsic'
+Subtype  ------>   luminal A
+
+-----
+
+Using a meta-analytical approach, we consolidated the signatures associated with ER signaling, ERBB2 amplification, and proliferation.
+-----
+{'entities': [(81, 93, 'Gene Product'), (95, 100, 'Gene')]}
+-----
+Gene  ------>   ERBB2
+
+-----
+
+Gene coexpression modules of three key biological processes in breast cancer (namely, proliferation, estrogen receptor [ER], and HER2 signaling) were used to dissect the role of constituent genes of nine prognostic signatures.
+-----
+{'entities': [(101, 123, 'Gene Product'), (129, 133, 'Gene Product')]}
+-----
+Receptors  ------>   estrogen
+Subtype  ------>   ER
+Subtype  ------>   HER2
+
+-----
+
+To address the above issues and to further validate these initial findings, we performed the largest meta-analysis of publicly available breast cancer gene expression and clinical data, which are comprised of 2,833 breast tumors.
+-----
+{'entities': [(215, 229, 'Disease')]}
+-----
+
+-----
+
+Although a previous study demonstrated a prognostic concordance among gene expression signatures, it was limited to only one dataset and did not fully elucidate how the different genes were related to one another nor did it examine the contribution of well-known biological processes of breast cancer tumorigenesis to their prognostic performance.
+-----
+{'entities': [(287, 314, 'Disease')]}
+-----
+
+-----
+
+Introduction Breast cancer subtyping and prognosis have been studied extensively by gene expression profiling, resulting in disparate signatures with little overlap in their constituent genes.
+-----
+{'entities': [(13, 26, 'Disease')]}
+-----
+Disease  ------>   Breast cancer
+
+-----
+
+Epidemiologic studies relying on three-biomarker IHC status for subtype classification should use caution when distinguishing luminal A from luminal B and when interpreting findings for HER2-enriched cancers.
+-----
+{'entities': [(126, 135, 'Subtype'), (141, 150, 'Subtype'), (186, 207, 'Subtype')]}
+-----
+Subtype  ------>   luminal B
+Subtype  ------>   HER2-enriched cancers
+
+-----
+
+Three-biomarker IHC-based subtyping has reasonable accuracy for distinguishing basal-like from nonbasal-like, although additional biomarkers are required for accurate classification of luminal A, luminal B, and HER2-enriched cancers.
+-----
+{'entities': [(79, 89, 'Subtype'), (95, 108, 'Subtype'), (185, 194, 'Subtype'), (196, 205, 'Subtype'), (211, 233, 'Subtype')]}
+-----
+Subtype  ------>   luminal B
+Subtype  ------>   HER2-enriched cancers
+
+-----
+
+Using a 10% threshold, IHC-based definitions identified the basal-like intrinsic subtype with high sensitivity (86%), although sensitivity was lower for luminal A, luminal B, and HER2-enriched subtypes (76%, 40%, and 37%, respectively).
+-----
+{'entities': [(60, 88, 'Subtype'), (153, 162, 'Subtype'), (164, 173, 'Subtype'), (179, 201, 'Subtype')]}
+-----
+Subtype  ------>   luminal A
+Subtype  ------>   luminal B
+Subtype  ------>   HER2-enriched
+
+-----
+
+IHC-based definitions had high agreement with the clinical record regardless of hormone receptor positivity threshold (1% vs. 10%), but a 10% threshold produced highest agreement with RNA-based intrinsic subtypes.
+-----
+{'entities': [(80, 96, 'Gene Product'), (184, 213, 'Subtype')]}
+-----
+Gene Product  ------>   hormone receptor
+RNA  ------>   RNA
+
+-----
+
+Cases with low tumor cellularity and smaller core size had reduced agreement with the clinical record.
+-----
+{'entities': []}
+-----
+Medical Test  ------>   core size had reduced agreement with
+
+-----
+
+Automated analysis of the three-biomarker IHC panel produced high agreement with the clinical record (93% for ER and HER2, and 88% for PR).
+-----
+{'entities': [(110, 112, 'Gene Product'), (117, 121, 'Gene Product'), (135, 137, 'Gene Product')]}
+-----
+Subtype  ------>   ER
+Subtype  ------>   HER2
+
+-----
+
+Multiple cores (1-6/case) were collapsed to classify cases, and automated scoring was compared with the clinical record and to RNA-based subtyping.
+-----
+{'entities': [(127, 147, 'Subtype')]}
+-----
+RNA  ------>   RNA
+
+-----
+
+Automated scoring of estrogen receptor (ER), progesterone receptor (PR), and HER2 was performed on IHC-stained tissue microarrays comprising 1,920 cases from the African American Breast Cancer Epidemiology and Risk (AMBER) consortium.
+-----
+{'entities': [(22, 43, 'Gene Product'), (45, 71, 'Gene Product'), (77, 82, 'Gene Product')]}
+-----
+Gene  ------>   estrogen
+Receptor  ------>   progesterone receptor (PR)
+Subtype  ------>   HER2
+
+-----
+
+To examine accuracy of IHC-based methods for identifying intrinsic subtypes, a three-biomarker IHC panel was compared with the clinical record and RNA-based intrinsic (PAM50) subtypes.
+-----
+{'entities': [(157, 184, 'Subtype')]}
+-----
+Subtype  ------>   intrinsic subtypes
+RNA  ------>   RNA
+Subtype  ------>   PAM50
+
+-----
+
+Background: Classification of breast cancer into intrinsic subtypes has clinical and epidemiologic importance.
+-----
+{'entities': [(30, 44, 'Disease')]}
+-----
+
+-----
