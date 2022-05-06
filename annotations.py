@@ -48,4 +48,4 @@ annotation25 = [("Epidemiologic studies relying on three-biomarker IHC status fo
 
 training = annotation1 + annotation2 + annotation3 + annotation4 + annotation5 + annotation6 + annotation7 + annotation8 + annotation9 + annotation10 + annotation11 + annotation12 + annotation13 + annotation14 + annotation15 + annotation16 + annotation17 + annotation18 + annotation20
 testing = annotation21 + annotation22 + annotation23 + annotation24 + annotation25
-print(len(training), len(testing))
+all = training + testing
